@@ -5,7 +5,7 @@ dbt_ods:
       host: dev-tlv-memagg01.gw-4u.com
       port: 3306
       user: dev_user
-      password: Qwe123456
+      password:
       database: ods
       schema: ods
       threads: 1
