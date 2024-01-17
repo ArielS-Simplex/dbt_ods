@@ -1,0 +1,3 @@
+dbt-core==1.4.7
+dbt-singlestore
+dbt-rpc==0.3.4
