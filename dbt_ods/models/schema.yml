@@ -1,0 +1,16 @@
+
+version: 2
+
+models:
+  - name: poc_singlestore
+    description: "POC on SingleStore"
+    columns:
+      - name: clientid
+        description: ""
+
+sources:
+  - name: ods
+    database: ods
+    schema: ods
+    tables:
+      - name: Clients
