@@ -1,7 +1,8 @@
 {{
-    config(materialized='incremental',
-     unique_key='Clientid',
-    schema='ods')
+    config(
+        materialized='incremental',
+        unique_key='Clientid',
+        schema='ods')
 }}
 
 SELECT MultiClientID, Clientid, ClientName
