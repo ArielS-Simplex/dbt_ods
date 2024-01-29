@@ -34,14 +34,14 @@ RUN python -m pip install --upgrade pip setuptools wheel --no-cache-dir
 #Install AWS CLI
 RUN python -m pip install awscli
 
-# Set working directory
-WORKDIR /dbt_ods
+
 
 # Create directory for dbt config
 RUN mkdir -p /root/.dbt
 
 # Copy requirements.txt
 COPY ./requirements.txt .
+
 
 # Install dependencies
 RUN pip install -r requirements.txt
