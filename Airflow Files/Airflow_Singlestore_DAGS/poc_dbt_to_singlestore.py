@@ -37,7 +37,7 @@ def trigger_dbt_run():
         "method": "run",  # Or other DBT command
         "id": 1,
         "params": {
-            "models": "POC_DimClients.sql"
+            "models": "poc_singlestore.sql"
         }
     }
     try:
